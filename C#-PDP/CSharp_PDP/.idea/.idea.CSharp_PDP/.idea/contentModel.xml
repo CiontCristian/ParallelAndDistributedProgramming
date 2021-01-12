@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Cristi\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Cristi\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CSharp_PDP.1494845429.00" t="ExcludeRecursive" />
+    <e p="E:\FACULTATE\AN 3\SEMESTRU 5\PDP\Lab\C#-PDP\CSharp_PDP" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CSharp_PDP.sln" t="IncludeFlat" />
+      <e p="implementations" t="Include">
+        <e p="AsyncTasks.cs" t="Include" />
+        <e p="Callback.cs" t="Include" />
+        <e p="Tasks.cs" t="Include" />
+      </e>
+      <e p="Lab4.csproj" t="IncludeRecursive" />
+      <e p="model" t="Include">
+        <e p="Connection.cs" t="Include" />
+        <e p="Response.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="Lab4.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+    </e>
+  </component>
+</project>

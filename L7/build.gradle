@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = 'Main'
+
+def mpjHome = "E:\\FACULTATE\\AN 3\\SEMESTRU 5\\PDP\\Lab\\mpj-v0_44"
+def mpjStarter = files("$mpjHome/lib/starter.jar")
+def mpjJar = files("$mpjHome/lib/mpj.jar")
+def mpjClasspath = sourceSets.main.runtimeClasspath - mpjJar
+
+dependencies {
+    compile mpjJar
+}
+
+run {
+    main = 'runtime.starter.MPJRun'
+    classpath = mpjStarter
+    args mainClassName, '-cp', mpjClasspath.asPath, '-np', 3
+    dependsOn classes
+}
